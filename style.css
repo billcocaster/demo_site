@@ -14,20 +14,19 @@
 .cont .navbar{
     width: 100%;
     height: 80px;
-    background: rgba(22,112,214,0.4);
+    background: #A70000;
+
 }
 
 .navbar .logo{
     display: inline-block;
-    margin-left: 50px;
-    margin-top: 25px;
+    margin-left: -5px;
+    margin-top: -22px;
 }
 
-.navbar .logo a{
-    text-decoration: none;
-    font-size: 30px;
-    font-family: sans-serif;
-    color: #A70000;
+.navbar .logo img{
+    width: 135px;
+    height: auto;
 }
 
 .navbar ul li{
@@ -52,14 +51,14 @@
 
 .navbar ul li a.active,
 .navbar ul li a:hover{
-    background: #A70000;
+    background: #7B0000;
     border-radius: 2px;
 }
 
 .cont .center{
     position: absolute;
-    top: 50%;
-    left: 50%;transform: translate(-50%,-50%);
+    top: 77%;
+    left: 1%;
     font-family: Raleway;
     font-style: italic;
     color: #A70000;
